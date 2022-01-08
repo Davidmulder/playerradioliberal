@@ -1,0 +1,119 @@
+html { 
+    background: url(bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+}
+.tit01{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0px;
+}
+.logos{
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 10px 0px;
+}
+.logos img{
+    width: 150px;
+}
+.tocando{
+    border-bottom: solid 4px #fff;
+    padding-bottom: 7px;
+}
+.espera{
+    opacity: .2;
+}
+.espera:hover{
+    opacity: 1;
+}
+.radio{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+.mejs__controls:not([style*='display: none']) {
+    background: rgba(255, 0, 0, 0.7);
+    background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.35));
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0));
+}
+.mejs__container, .mejs__controls{
+    height: 200px!important;
+    background-color: #0000;
+}
+.conteudo{
+    width: 340px!important;
+    height: 580px!important;
+    background-color: #0003;
+    margin: auto;
+}
+
+.mejs__button.mejs__play,.mejs__button.mejs__pause{
+    margin: auto;
+    width: 140px;
+    height: 140px;
+}
+.mejs__button > button{
+    background: none;
+}
+.mejs__button.mejs__playpause-button.mejs__play{
+    background-image: url(bot_play.png);
+}
+.mejs__button.mejs__playpause-button.mejs__pause{
+    background-image: url(bot_pause.png);
+}
+.mejs__time.mejs__currenttime-container, .mejs__time-rail, .mejs__time.mejs__duration-container{
+    display: none;
+}
+.mejs__button.mejs__volume-button{
+    width: 36px!important;
+    height: 33px!important;
+    float: left;
+    margin: 20px;
+    margin-left: 40px;
+}
+.mejs__button.mejs__volume-button.mejs__mute{
+    background-image: url(bot_mais_som.png);
+}
+.mejs__button.mejs__volume-button.mejs__unmute{
+    background-image: url(bot_menos_som.png);
+}
+.mejs__horizontal-volume-slider{
+    display: block;
+    float: left;
+    margin-top: 16px;
+}
+.mejs__horizontal-volume-total{
+    width: 200px;
+    background-color: #222
+}
+.bolavolume{
+    width: 16px;
+    height: 16px;
+    background-color: #ccc;
+    position: absolute;
+    right: -8px;
+    top: -4px;
+    border-radius: 100%;
+}
+.volume_celular{
+    float: left;
+    margin-left: 19px;
+}
+.volume_celular button, .separador{
+    background-color: #fff3;
+    border: solid 1px #fff;
+    height: 50px;
+    width: 50px;
+    padding: 0px;
+    margin: 0px 5px;
+    float: left;
+}
+#botcel{
+    display: none;
+}

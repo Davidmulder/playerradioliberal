@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Liberal FM - Ao vivo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="favicon.png">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"> 
+        <link rel="stylesheet" href="mediaelementplayer_liberal.css">
+        <link rel="stylesheet" href="css.css">
+        
+         <meta property="og:locale" content="pt_BR">
+
+<meta property="og:url" content="http://m.orm.com.br/projetos/radio/player/player02.htm">
+
+<meta property="og:title" content="Liberal FM - Ao vivo">
+<meta property="og:site_name" content="Liberal FM">
+<meta property="og:type" content="article">
+<meta property="fb:app_id" content="123456789000"/>
+
+<meta property="og:description" content="É uma emissora de rádio brasileira sediada em Belém, capital do estado do Pará.">
+
+<meta property="og:image" content="http://m.orm.com.br/projetos/radio/player/LIBERAL-FM.jpg">
+<meta property="og:image:width" content="800"> 
+<meta property="og:image:height" content="597"> 
+<meta name="twitter:title" content="É uma emissora de rádio brasileira sediada em Belém, capital do estado do Pará. Opera no dial FM, na frequência 90.5 MHz.">
+<meta name="twitter:card" content="summary_large_image"/>
+
+        
+        
+        <script type="text/javascript">
+
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-1336695-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+        <script>
+            window.onload = function() {
+                if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                    document.getElementById("botcel").style.display = "table";
+                    //                    alert("Hello! I am an alert box!!");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form action="#" method="get">
+            <select name="lang" hidden>
+                <option selected value="pt">Português / Portuguese (pt)</option>
+            </select>
+            <select name="stretching" hidden>
+                <option value="auto" selected>Auto (default)</option>
+                <option value="responsive">Responsive</option>
+                <option value="fill" selected>Fill</option>
+                <option value="none" selected>None (original dimensions)</option>
+            </select>
+        </form>
+        <div class="conteudo">
+<!--            <div class="tit01">O que você quer ouvir?</div>-->
+            <div class="logos"><a href="player02.htm" class="tocando"><img src="logo_liberal_fm.png"> <br> Ouça</a></div>
+            <div class="logos"><a href="player04.htm" class="espera"><img src="logo_liberal_fm.png"> <br> Veja</a></div>
+            <div class="logos"><a href="player01.htm" class="espera"><img src="logo_liberal_am.png"></a></div>
+            <div class="logos"><a href="player03.htm" class="espera"><img src="logo_libmusic.png"> <br> Web Rádio</a></div>
+
+
+            <div class="radio">
+                <audio id="player2" preload="none" controls style="max-width:100%;">
+                    <source src="http://177.105.192.70:9750/liberalfm.mp3" type="audio/mp3">
+                </audio>
+            </div>
+
+<!--
+            <div id="botcel" class="volume_celular">
+                <button onclick="document.getElementById('player2').muted=true">
+                    <img src="bot_menos_som.png">
+                </button>
+                <button onclick="document.getElementById('player2').muted=false">
+                    <img src="bot_mais_som.png">
+                </button>
+                <div class="separador" style="opacity: 0"></div>
+                <button onclick="document.getElementById('player2').volume-=0.1">
+                    <img src="menos.png">
+                </button>
+                <button onclick="document.getElementById('player2').volume+=0.1">
+                    <img src="mais.png">
+                </button>
+            </div>
+-->
+
+        </div>
+
+        <script src="mediaelement-and-player_liberal.js"></script>
+        <script src="pt.js"></script>
+        <script src="demo.js"></script>
+    </body>
+</html>
