@@ -29,7 +29,7 @@ Projetos desenvolvido pela equipe de desenvolvimento com objetivo de fazer a cob
 
 ## Tecnologia usada
 
-Usado do modelo de framework WordPress, no servidor linux da libnet
+Usado do modelo de framework, no servidor linux da libnet
 
 - ⚛️ **Javascript** — colocar o player do wnoza
 - ⚛️ **PHP** — PHP para servidor linux
@@ -45,7 +45,7 @@ Usado do modelo de framework WordPress, no servidor linux da libnet
 
 ### Equipe de desenvolvimento
 
-1. David orion (webdeveloper), Luis melo (webdesigner) e Flaberson Moraes (webdeveloper)
+1. David orion (webdeveloper), Luis melo (webdesigner) 
 
 
 
